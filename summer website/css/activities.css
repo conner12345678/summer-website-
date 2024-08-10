@@ -1,0 +1,27 @@
+body {
+  background-image: url(../pictures/Rect\ Light.svg);
+}
+
+.navBar {
+  background-image: url(../pictures/Contour\ Line.svg);
+  text-align: center;
+  padding: 20px;
+  border-radius: 30px;
+  background-position: center;
+}
+.navBar #current {
+  color: #F4A261;
+}
+.navBar #current:hover {
+  color: #E9C46A;
+}
+.navBar a {
+  color: #E9C46A;
+  text-decoration: none;
+  font-size: x-large;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.navBar a:hover {
+  color: #F4A261;
+}/*# sourceMappingURL=activities.css.map */

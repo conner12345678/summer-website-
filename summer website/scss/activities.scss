@@ -1,0 +1,27 @@
+body{
+    background-image: url(../pictures/Rect\ Light.svg);
+}
+
+.navBar{
+    background-image: url(../pictures/Contour\ Line.svg);
+    text-align: center;
+    padding: 20px;
+    border-radius: 30px;
+    background-position: center;
+    #current{
+        color: #F4A261;
+        &:hover{
+            color: #E9C46A;
+        }
+    }
+    a{
+        color: #E9C46A;
+        text-decoration: none;
+        font-size: x-large;
+        margin-left: 20px;
+        margin-right: 20px;
+        &:hover{
+            color: #F4A261;
+        }
+    }
+}

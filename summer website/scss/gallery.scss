@@ -1,0 +1,51 @@
+body{
+    background-image: url(../pictures/Rect\ Light.svg);
+}
+
+.navBar{
+    background-image: url(../pictures/Contour\ Line.svg);
+    text-align: center;
+    padding: 2vw;
+    border-radius: 30px;
+    background-position: center;
+    #current{
+        color: #F4A261;
+        &:hover{
+            color: #E9C46A;
+        }
+    }
+    a{
+        color: #E9C46A;
+        text-decoration: none;
+        font-size: 2vw;
+        margin-left: 2vw;
+        margin-right: 2vw;
+        &:hover{
+            color: #F4A261;
+        }
+    }
+}
+
+.pictures{
+    display: grid;
+    background-color: rgb(16, 163, 0);
+    grid-template-areas: 
+    'image1 image2 image3'
+    'image4 . image5'
+    'image6 image7 image8';
+    .image1{grid-area: image1;}
+    .image2{grid-area: image2;}
+    .image3{grid-area: image3;}
+    .image4{grid-area: image4;}
+    .image5{grid-area: image5;}
+    .image6{grid-area: image6;}
+    .image7{grid-area: image7;}
+    .image8{grid-area: image8;}
+    img{
+        width: 34vw;
+        height: 15vw;
+    }
+    p{
+        font-size: 2vw;
+    }
+}
